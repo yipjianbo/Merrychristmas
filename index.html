@@ -179,13 +179,12 @@
       <li class="light l24"></li>
       <li class="light l25"></li>
     </ul>
-    <audio autoplay="autoplay" loop src="./music/Christmas.mp3" id="music"/>
+    <audio autoplay loop src="./music/Christmas.mp3" id="music"/>
 <body/>
 <script>
   (function() {
     window.onload = function(){
       console.log('音乐播放');
-      document.getElementById('music').play();
       window.addEventListener('click', function() {
         document.getElementById('music').play();
       })
