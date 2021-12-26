@@ -185,7 +185,9 @@
   (function() {
     window.onload(function(){
       console.log('音乐播放');
-      document.getElementById('music').play();
+      window.addEventListener('click', function() {
+        document.getElementById('music').play();
+      })
     })
   })
 </script>
